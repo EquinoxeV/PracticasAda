@@ -7,4 +7,6 @@ Soluciones:
 
  Uso de las librerias "Ada.Text_IO" y "Ada.Integer_Text_IO". Comentarios, mensajes por consola, declaración de variables, obtención de datos y muestreo de los mismos por consola.
 
--> 002
+-> 002EstructurasDeControl
+
+Uso de las estructuras de Control (if/else)
