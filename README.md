@@ -14,7 +14,8 @@ Utilización de las librerias "Ada.Strings.Unbounded" y "Ada.Text_IO.Unbounded_I
 
 -> 002EstructurasDeControlIterativas
 
-Bucles (Estructuras de Control Iterativas).
+Bucles (Estructuras de Control Iterativas). Revisión de atributos 'Succ y 'Pred para el valor previo y posterior de un número entero.
+Ejercicios: Listar numeros pares, realizar sumatoria de valores, calcular el promedio de 10 valores ingresados por el usuario.
 
 
 -> Ejercicios
