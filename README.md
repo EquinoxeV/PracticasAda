@@ -1,5 +1,5 @@
 # PracticasAda
-Ejercicios realizados durante el curso de Ada iniciado el 13 de Octubre del 2020.
+Ejercicios realizados durante el curso de Ada iniciado el 13 de Octubre del 2022.
 
 Soluciones:
 
