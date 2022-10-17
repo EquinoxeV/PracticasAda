@@ -22,7 +22,8 @@ Ejercicios: Listar numeros pares, realizar sumatoria de valores, calcular el pro
 Probaremos el bucle infinito con condición de corte (loop, exit when, end loop), haremos el mismo ejemplo con el while. Haremos un programa que dependiendo del valor de entrada (edad) daremos una respuesta mediante el uso de un "Case".   
 Tendremos una introducción a los Strings, veremos como definirlos de forma explicita e implicita.  
 Realizaremos un ejercicio que reciba valores (hasta que el usuario quiera terminar) y al finalizar nos muestre el valor máximo introducido.  
-Veremos el operador ternario tanto en el caso del if como del case.
+Veremos el operador ternario tanto en el caso del if como del case.  
+Y realizaremos un ejercicio de ingreso de valores en el que mostraremos la cantidad de valores introducidos, la cantidad de pares y de impares.
 
 -> 004
 
