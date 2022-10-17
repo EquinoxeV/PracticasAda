@@ -19,7 +19,11 @@ Probaremos el bucle infinito con condición de corte (loop, exit when, end loop)
 Tendremos una introducción a los Strings, veremos como definirlos de forma explicita e implicita.  
 Realizaremos un ejercicio que reciba valores (hasta que el usuario quiera terminar) y al finalizar nos muestre el valor máximo introducido.  
 Veremos el operador ternario tanto en el caso del if como del case.  
-Y realizaremos un ejercicio de ingreso de valores en el que mostraremos la cantidad de valores introducidos, la cantidad de pares y de impares.
+Y realizaremos un ejercicio de ingreso de valores en el que mostraremos la cantidad de valores introducidos, la cantidad de pares y de impares.  
+
+-> 003ValoresAleatorios  
+
+-> 003JuegoAdivinanzas
 
 -> 004
 
