@@ -19,4 +19,6 @@ Ejercicios: Listar numeros pares, realizar sumatoria de valores, calcular el pro
 
 -> 003Iterativas
 
+Probaremos el bucle infinito con condición de corte (loop, exit when, end loop), haremos el mismo ejemplo con el while. haremos 
+
 
