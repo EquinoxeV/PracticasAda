@@ -27,6 +27,8 @@ Mediante la libreria "Ada.Numerics.Float_Random" procedemos a generar numeros al
 -> 003JuegoAdivinanzas  
 Ejercicio en el que repasaremos todo lo aprendido hasta ahora.
 
--> 004
+-> 004  
+
+-> 005
 
 
