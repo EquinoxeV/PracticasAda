@@ -22,8 +22,10 @@ Veremos el operador ternario tanto en el caso del if como del case.
 Y realizaremos un ejercicio de ingreso de valores en el que mostraremos la cantidad de valores introducidos, la cantidad de pares y de impares.  
 
 -> 003ValoresAleatorios  
+Mediante la libreria "Ada.Numerics.Float_Random" procedemos a generar numeros aleatorios.
 
--> 003JuegoAdivinanzas
+-> 003JuegoAdivinanzas  
+Ejercicio en el que repasaremos todo lo aprendido hasta ahora.
 
 -> 004
 
