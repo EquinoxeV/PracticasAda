@@ -19,6 +19,8 @@ Ejercicios: Listar numeros pares, realizar sumatoria de valores, calcular el pro
 
 -> 003Iterativas
 
-Probaremos el bucle infinito con condición de corte (loop, exit when, end loop), haremos el mismo ejemplo con el while. haremos 
+Probaremos el bucle infinito con condición de corte (loop, exit when, end loop), haremos el mismo ejemplo con el while. Haremos un programa que dependiendo del valor de entrada (edad) daremos una respuesta mediante el uso de un "Case". 
+Tendremos una introducción a los Strings, veremos como definirlos de forma explicita e implicita.
+Realizaremos un ejercicio que reciba valores (hasta que el usuario quiera terminar) y al finalizar nos muestre el valor máximo introducido.
 
 
