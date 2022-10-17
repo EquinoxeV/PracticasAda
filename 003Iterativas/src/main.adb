@@ -7,6 +7,11 @@ procedure Main is
 
 begin
    Put_Line("Inicio del programa");
+   
+   -- Manejo de excepciones
+   Get(N);
+   exception
+      when Data_Error => Put_Line("Mal ingreso de datos.");
 
    --  -- Calcule la sumatoria de Valores hasta que el usuario ingrese un 0
    --  Put_Line("Ingrese valores, un 0 finaliza el proceso");
@@ -15,7 +20,7 @@ begin
    --  --  -- Bucle infinito
    --  --  loop
    --  --     Get(Entrada_Datos);
-   --  --     exit when Entrada_Datos = 0; -- Condición de corte
+   --  --     exit when Entrada_Datos = 0; -- CondiciÃ³n de corte
    --  --     Sumatoria := Sumatoria + Entrada_Datos;
    --  --  end loop;
    --  --
@@ -34,7 +39,7 @@ begin
 
 
 
-   --  -- Ejercicio nº2
+   --  -- Ejercicio nÂº2
    --  -- Mediante Iterativas haz un programa que pida la edad y dependiento del valor
    --  -- indica lo siguiente:
    --  -- 0 - 2 -> Es un recien nacido
@@ -52,7 +57,7 @@ begin
    --     Get(Edad);
    --     case Edad is
    --        when 0 | 1 | 2 =>
-   --           Put_Line("Es un recién nacido");
+   --           Put_Line("Es un reciÃ©n nacido");
    --        when 3 .. 9 =>
    --           Put_Line("Es un infante");
    --        when 10 .. 15 =>
@@ -93,7 +98,7 @@ begin
    -- Ejercicio
    -- Un programa que pregunte valores positivos hasta que ingrese un 0
    -- utilizar bloque declare
-   -- El programa me muestra el máximo
+   -- El programa me muestra el mÃ¡ximo
    --  declare
    --     Valor_Maximo : Integer := 0;
    --     Valor_Ingresado : Integer := 0;
@@ -110,7 +115,7 @@ begin
    --        exit when Valor_Ingresado = 0;
    --     end loop;
    --
-   --     Put_Line("El valor máximo ha sido: " &Valor_Maximo'Image);
+   --     Put_Line("El valor mÃ¡ximo ha sido: " &Valor_Maximo'Image);
 
 
 
@@ -119,7 +124,7 @@ begin
    --  -- a>0 ? "Es mayor":"Es Menor"; -- Si no sale el primero ejecuta el segundo
    --
    --  -- Ahora veremos lo mismo en Ada
-   --  -- Operador ternario - if como expresión - case como expresión
+   --  -- Operador ternario - if como expresiÃ³n - case como expresiÃ³n
    --  declare
    --     Edad : Integer;
    --  begin
@@ -134,7 +139,7 @@ begin
    --     -- If omo expresion (como operador ternario de Java)
    --     --  Put_Line( if (Edad>18) then "Es Mayor" else "Es menor");
    --
-   --     -- Case como expresión
+   --     -- Case como expresiÃ³n
    --     Put_Line(case Edad is when 0 .. 17 => "Es menor",
    --                 when 18 .. 60 => "Es mayor",
    --              when others => "Es Senior"
@@ -142,9 +147,9 @@ begin
    --  end;
 
 
-   -- Que el ususario ingrese números
+   -- Que el ususario ingrese nÃºmeros
    -- Calcular cantidad de numeros pares, impares y numeros ingresados
-   -- utilizar una expresión if
+   -- utilizar una expresiÃ³n if
    declare
       Valor_Ingresado : Integer := 0;
       Cantidad_Pares : Integer := 0;
