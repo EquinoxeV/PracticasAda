@@ -28,8 +28,11 @@ Mediante la libreria "Ada.Numerics.Float_Random" procedemos a generar numeros al
 Ejercicio en el que repasaremos todo lo aprendido hasta ahora.
 
 -> 004Subprogramas  
-Trataremos el tema de las funciones (obliga a usar el valor de retorno) y de los procedimientos (no devuelve nada).  
-El renombramiento de metodos mediante un procedimiento (procedure).
+Trataremos el tema de las funciones y de los procedimientos.  
+El renombramiento de metodos mediante un procedimiento (procedure).  
+Uso del "in out" cuando quieres indicar que el parametro lo quieres modificar. Solo se le pueden pasar variables.  
+Sobrecarga de métodos.  
+Y un ejercicio para ejercitar los procedimientos con las entradas y salidas de datos.  
 
 -> 005
 
