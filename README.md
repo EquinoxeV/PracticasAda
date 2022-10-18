@@ -27,7 +27,9 @@ Mediante la libreria "Ada.Numerics.Float_Random" procedemos a generar numeros al
 -> 003JuegoAdivinanzas  
 Ejercicio en el que repasaremos todo lo aprendido hasta ahora.
 
--> 004  
+-> 004Subprogramas  
+Trataremos el tema de las funciones (obliga a usar el valor de retorno) y de los procedimientos (no devuelve nada).  
+El renombramiento de metodos mediante un procedimiento (procedure).
 
 -> 005
 
