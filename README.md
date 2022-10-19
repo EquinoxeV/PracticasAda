@@ -34,6 +34,7 @@ Uso del "in out" cuando quieres indicar que el parametro lo quieres modificar. S
 Sobrecarga de métodos.  
 Y un ejercicio para ejercitar los procedimientos con las entradas y salidas de datos.  
 
--> 005
+-> 005Paquetes  
+Utilización de paquetes con sus respectivas funciones.
 
 
