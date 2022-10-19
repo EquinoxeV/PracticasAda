@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\005Paquetes\paquetes.gpr
+20221019072346 a40d19fabc8005166eab1d4c71d73551
+[BOUND OBJECT FILES]
+C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\005Paquetes\obj\constantes.o
+C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\005Paquetes\obj\io.o
+C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\005Paquetes\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\005Paquetes\obj\
+-LC:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\005Paquetes\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
