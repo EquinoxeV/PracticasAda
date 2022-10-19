@@ -57,4 +57,18 @@ function Get_NotEmpty_Line
    end Get_Integer;
    
    
+   --  function Get_Integer
+   --    (ErrorMessage: String := "No Ingreso un Numero.Vuelva a intentar") return Integer is
+   --     EntradaCorrecta : Boolean := false;
+   --     Value : Integer;
+   --  begin
+   --     while not(EntradaCorrecta)
+   --     loop
+   --        EntradaCorrecta := Try_Get_Integer(Value);
+   --        Put_Line(ErrorMessage);
+   --     end loop;
+   --     return Value;
+   --  end Get_Integer;
+   
+ 
 end IO;
