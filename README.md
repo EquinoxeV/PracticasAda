@@ -35,6 +35,11 @@ Sobrecarga de métodos.
 Y un ejercicio para ejercitar los procedimientos con las entradas y salidas de datos.  
 
 -> 005Paquetes  
-Utilización de paquetes con sus respectivas funciones.
+Utilización de paquetes con sus respectivas funciones.  
+
+-> 006Tipos  
+Utilización de tipos, ejemplos de tipado
+
+-> 007
 
 
