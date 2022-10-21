@@ -40,6 +40,9 @@ Utilización de paquetes con sus respectivas funciones.
 -> 006Tipos  
 Utilización de tipos, ejemplos de tipado
 
--> 007
+-> 007Ejercicio_Fisica  
+Ejercicio para comprobar lo aprendido hasta ahora.  
+
+-> 008
 
 
