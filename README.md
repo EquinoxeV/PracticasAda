@@ -43,6 +43,9 @@ Utilización de tipos, ejemplos de tipado
 -> 007Ejercicio_Fisica  
 Ejercicio para comprobar lo aprendido hasta ahora.  
 
+-> 007Registros  
+Introducción a los registros (POO de java).
+
 -> 008
 
 
