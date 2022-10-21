@@ -25,7 +25,9 @@ begin
       Velocidad_Inicial := ;
       Tiempo_Transcurrido := ;
 
+      Velocidad_Final := Posicion_Final(Posicion_Inicial, Velocidad_Inicial, Tiempo_Transcurrido, Aceleracion);
 
+      Put_Line("La velocidad final es: " & Float(Velocidad_Final), Exp => 0);
 
    end;
 
