@@ -1,0 +1,11 @@
+main.adb:24:22: error: expected type "Standard.Float"
+main.adb:24:22: error: found type universal integer
+main.adb:25:07: error: invalid use of subtype mark in expression or call
+main.adb:26:07: error: invalid use of subtype mark in expression or call
+main.adb:27:07: error: invalid use of subtype mark in expression or call
+main.adb:29:07: error: invalid use of subtype mark in expression or call
+main.adb:31:07: error: no candidate interpretations match the actuals:
+main.adb:31:07: error: missing argument for parameter "Item" in call to "Put_Line" declared at a-textio.ads:496
+main.adb:31:42: error: invalid operand types for operator "&"
+main.adb:31:68: error: unmatched actual "Exp" in call
+fisica.ads:16:41: error: formal parameter "Aceleracion" cannot be used before end of specification

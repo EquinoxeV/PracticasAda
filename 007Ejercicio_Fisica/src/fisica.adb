@@ -3,7 +3,7 @@ package body Fisica is
    function Posicion_Final(Posicion_Inicial : Distancia,
                            Velocidad_Inicial : Velocidad,
                            Tiempo_Transcurrido : Tiempo,
-                          Aceleracion) return Velocidad_Final is 
+                          Aceleracion : Aceleracion) return Velocidad_Final is 
       -- Vf = V_Inicial * t + 1/2 * a * t^2
       -- m/s = m/s + 1/2 * M/s^2 * s^2
    begin

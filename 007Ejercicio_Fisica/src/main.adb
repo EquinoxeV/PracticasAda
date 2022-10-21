@@ -19,11 +19,12 @@ begin
    Put_Line("Inicio del programa.");
 
    declare
+      Aceleracion : Float;
    begin
-      Aceleracion := ;
-      Posicion_Inicial := ;
-      Velocidad_Inicial := ;
-      Tiempo_Transcurrido := ;
+      Aceleracion := 10;
+      Posicion_Inicial := 1;
+      Velocidad_Inicial := 2;
+      Tiempo_Transcurrido := 33 ;
 
       Velocidad_Final := Posicion_Final(Posicion_Inicial, Velocidad_Inicial, Tiempo_Transcurrido, Aceleracion);
 
