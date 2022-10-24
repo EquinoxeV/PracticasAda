@@ -46,6 +46,7 @@ Ejercicio para comprobar lo aprendido hasta ahora.
 -> 007Registros  
 Introducción a los registros (POO de java).
 
--> 008
+-> 008  
+Introducción a los arreglos (arrays).
 
 
