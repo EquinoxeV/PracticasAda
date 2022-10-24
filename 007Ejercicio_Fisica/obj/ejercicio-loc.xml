@@ -1,14 +1,70 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
+    <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 4" line=" 3" >
+    <file_marker column=" 4" line=" 3" >
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\fisica.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\fisica.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 33" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 21" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 24" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 6" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\fisica.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 76" line=" 31" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 24" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 27" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 56" line=" 13" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\fisica.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 15" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\fisica.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 16" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\fisica.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 24" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 22" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 22" line=" 24" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\007Ejercicio_Fisica\src\main.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
