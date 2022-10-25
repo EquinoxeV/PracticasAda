@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\009Arreglos\arreglosbonus.gpr
+20221025061452 6382db0e100626b8a66140e7d72e148b
+[BOUND OBJECT FILES]
+C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\009Arreglos\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\009Arreglos\obj\
+-LC:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\009Arreglos\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
