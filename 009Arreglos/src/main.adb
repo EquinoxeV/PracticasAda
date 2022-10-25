@@ -1,6 +1,7 @@
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Numerics.Float_Random; use Ada.Numerics.Float_Random;
 with Ada.Float_Text_IO; use Ada.Float_Text_IO;
+with Float_array; use Float_array;
 
 
 procedure Main is
@@ -34,84 +35,120 @@ begin
 
 
    declare
-      -- Declarar un tipo de arreglo de float
-      type Array_Float is array(Positive range <>) of Float;
-
-      -- declara una funcion que recibe un numero y me devuelve un arreglo
-      -- de numeros al azar N posiciones
-      function Arreglo_Numeros_Aleatorios(Num_N : in Integer) return Array_Float is
-         G : Generator;
-         Result : Array_Float(1..Num_N);
-      begin
-         for I in Result'Range loop
-            Result(I) := Float((Random(G) * 10.0) + 1.0);
-         end loop;
-         return Result;
-      end;
-
-      -- Declarar una funcion que recibe un arreglo de ese tipo y me devuelve
-      -- la sumatoria con 'First y 'Last
-
-      function Sumatoria(Entrada: Array_Float) return Float is
-         Retorno:Float:=0.0;
-      begin
-         for I in Entrada'Range loop
-            Retorno := Retorno + Entrada(I);
-         end loop;
-         return Retorno;
-      end;
-
-      -- declarar una funcion que recibe un arreglo de ese tipo y me devuelve
-      -- el promediio
-
-      function Promedio(Arreglo_Media : in Array_Float) return Float is
-      begin
-         return Sumatoria(Arreglo_Media)/Float(Arreglo_Media'Length);
-      end;
-
-      -- un procedimiento que muestra el arreglo por pantalla
-
-
-
-      procedure Muestreo_De_Datos is
-         Numeros : Array_Float := Arreglo_Numeros_Aleatorios(10);
-      begin
-         for I in reverse Numeros'Range loop
-            Put(Numeros(I), Exp => 0);
-            Put_Line("");
-
-         end loop;
-
-         Put_Line("La sumatoria es: ");
-         Put(Sumatoria(Numeros), Exp => 0);
-
-         Put_Line("");
-         Put_Line("El promedio es: ");
-         Put(Promedio(Numeros), Exp => 0);
-      end;
-
-
-
-
-
-      -- Numeros : Array_Float := Arreglo_Numeros_Aleatorios(10);
-
-      begin
+      --  -- Declarar un tipo de arreglo de float
+      --  type Array_Float is array(Positive range <>) of Float;
+      --
+      --  -- declara una funcion que recibe un numero y me devuelve un arreglo
+      --  -- de numeros al azar N posiciones
+      --  function Arreglo_Numeros_Aleatorios(Num_N : in Integer) return Array_Float is
+      --     G : Generator;
+      --     Result : Array_Float(1..Num_N);
+      --  begin
+      --     for I in Result'Range loop
+      --        Result(I) := Float((Random(G) * 10.0) + 1.0);
+      --     end loop;
+      --     return Result;
+      --  end;
+      --
+      --  -- Declarar una funcion que recibe un arreglo de ese tipo y me devuelve
+      --  -- la sumatoria con 'First y 'Last
+      --
+      --  function Sumatoria(Entrada: Array_Float) return Float is
+      --     Retorno:Float:=0.0;
+      --  begin
+      --     for I in Entrada'Range loop
+      --        Retorno := Retorno + Entrada(I);
+      --     end loop;
+      --     return Retorno;
+      --  end;
+      --
+      --  -- declarar una funcion que recibe un arreglo de ese tipo y me devuelve
+      --  -- el promediio
+      --
+      --  function Promedio(Arreglo_Media : in Array_Float) return Float is
+      --  begin
+      --     return Sumatoria(Arreglo_Media)/Float(Arreglo_Media'Length);
+      --  end;
+      --
+      --  -- un procedimiento que muestra el arreglo por pantalla
+      --
+      --
+      --
+      --  procedure Muestreo_De_Datos is
+      --     Numeros : Array_Float := Arreglo_Numeros_Aleatorios(10);
+      --  begin
       --     for I in reverse Numeros'Range loop
-      --     Put(Numeros(I), Exp => 0);
-      --     Put_Line("");
+      --        Put(Numeros(I), Exp => 0);
+      --        Put_Line("");
       --
       --     end loop;
       --
-      --  Put_Line("La sumatoria es: ");
-      --  Put(Sumatoria(Numeros), Exp => 0);
+      --     Put_Line("La sumatoria es: ");
+      --     Put(Sumatoria(Numeros), Exp => 0);
       --
-      --  Put_Line("");
-      --  Put_Line("El promedio es: ");
-      --  Put(Promedio(Numeros), Exp => 0);
+      --     Put_Line("");
+      --     Put_Line("El promedio es: ");
+      --     Put(Promedio(Numeros), Exp => 0);
+      --  end;
+      --
+      --  -- Una funcion que reciba un array y un valor
+      --  -- Devuelve otro array con los valores mayores al parametro
+      --  function Mayores(Arreglo : Array_Float; Valor : Float) return Array_Float is
+      --     -- Result : Array_Float(1..0); -- un array vacio
+      --     Aux : Array_Float := Arreglo; -- copio el arreglo para que tenga la misma longitud
+      --     -- subtype Tipo_Indice is Integer range Arreglo'Range;
+      --     Indice : Integer := Arreglo'First;
+      --  begin
+      --     for I in Arreglo'Range loop
+      --        if Arreglo(I)> Valor then
+      --           Aux(Indice) := Arreglo(I);
+      --           Indice := Indice+1;
+      --        end if;
+      --
+      --
+      --     end loop;
+      --
+      --     declare
+      --        Result:Array_Float(Arreglo'First..Indice-1); -- Me puede quedar vacio
+      --     begin
+      --        Result := Aux(Arreglo'First..Indice-1); -- Slice
+      --        return Result;
+      --     end;
+      --
+      --
+      --  end;
+      --
+      --
+      --
+      --
+      --
+      --  -- Numeros : Array_Float := Arreglo_Numeros_Aleatorios(10);
+      --
+      --  begin
+      --  --     for I in reverse Numeros'Range loop
+      --  --     Put(Numeros(I), Exp => 0);
+      --  --     Put_Line("");
+      --  --
+      --  --     end loop;
+      --  --
+      --  --  Put_Line("La sumatoria es: ");
+      --  --  Put(Sumatoria(Numeros), Exp => 0);
+      --  --
+      --  --  Put_Line("");
+      --  --  Put_Line("El promedio es: ");
+      --  --  Put(Promedio(Numeros), Exp => 0);
+      --
+      --  Muestreo_De_Datos;
+      --  declare
+      --     Mayores_A_5 : Array_Float := Mayores(Numeros, 5);
+      --
+      --  begin
+      --     Put_Line("Los mayores a 5 son: ");
+      --     Muestreo_De_Datos(Mayores_A_5);
+      --  end;
 
-      Muestreo_De_Datos;
-
-      end;
+   begin
+      null;
+   end;
 
 end Main;

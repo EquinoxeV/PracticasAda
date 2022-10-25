@@ -3,25 +3,20 @@ M P W=b
 A -gnatA
 A -mtune=generic
 A -march=x86-64
-P SS ZX
+P ZX
 
 RN
-RV NO_FLOATING_POINT
 RV NO_IO
-RV NO_SECONDARY_STACK
-RV NO_STANDARD_STORAGE_POOLS
-RV NO_DEFAULT_INITIALIZATION
-RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		13e4e3e7 NE OO SU
+U main%b		main.adb		26cf3029 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
 W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
-Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W float_array%s		float_array.adb		float_array.ali
 
 D ada.ads		20210520051132 76789da1 ada%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
@@ -37,9 +32,10 @@ D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D float_array.ads	20221025090034 51041e0c float_array%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20221025072712 1cccda50 main%b
+D main.adb		20221025085924 78e31792 main%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
@@ -58,41 +54,19 @@ D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z b b [main standard 6 11 none]
+G c Z b b [main standard 7 11 none]
 X 1 ada.ads
-16K9*Ada 20e8 17|1r6 1r23 2r6 2r37 3r6 3r29
+16K9*Ada 20e8 18|1r6 1r23 2r6 2r37 3r6 3r29
 X 3 a-flteio.ads
-20K13*Float_Text_IO[13|46] 17|3w10 3r33
+20K13*Float_Text_IO[13|46] 18|3w10 3r33
 X 5 a-numeri.ads
-16K13*Numerics 35e17 17|2r10 2r41
+16K13*Numerics 35e17 18|2r10 2r41
 X 6 a-nuflra.ads
-41K22*Float_Random 74e30 17|2w19 2r50
-47R9*Generator<24|65R9> 17|43r14
-49F12*Uniformly_Distributed{float}
-51V13*Random{49F12}<24|73p13> 17|47s33
+41K22*Float_Random 74e30 18|2w19 2r50
 X 12 a-textio.ads
-58K13*Text_IO 725e16 17|1w10 1r27
-87I12*Field{integer}
-506U14*Put_Line 17|81s13 85s10 88s10 89s10
-X 13 a-tiflio.ads
-82U14*Put 17|80s13[3|20] 86s10[3|20] 90s10[3|20]
-86i7 Exp{12|87I12} 17|80r29[3|20] 86r34[3|20] 90r33[3|20]
-X 17 main.adb
-6U11*Main 6b11 117l5 117t9
-38A12 Array_Float(float)<integer> 42r70 44r19 55r35 67r44 77r20 97r17
-42V16 Arreglo_Numeros_Aleatorios{38A12} 42b16 42>43 50t10 77s35 97s32
-42i43 Num_N{integer} 44r34
-43r10 G{6|47R9} 47r40
-44a10 Result{38A12} 46r19 47m13 49r17
-46i14 I{integer} 47r20
-55V16 Sumatoria{float} 55b16 55>26 62t10 69s17 86s14
-55a26 Entrada{38A12} 58r19 59r34
-56f10 Retorno{float} 59m13 59r24 61r17
-58i14 I{integer} 59r42
-67V16 Promedio{float} 67b16 67>25 70t10 90s14
-67a25 Arreglo_Media{38A12} 69r27 69r48
-76U17 Muestreo_De_Datos 76b17 91t10 113s7
-77a10 Numeros{38A12} 79r27 80r17 86r24 90r23
-79i14 I{integer} 80r25
-97a7 Numeros{38A12}
+58K13*Text_IO 725e16 18|1w10 1r27
+X 15 float_array.ads
+1K9*Float_array 31e16 18|4w6 4r23
+X 18 main.adb
+7U11*Main 7b11 154l5 154t9
 
