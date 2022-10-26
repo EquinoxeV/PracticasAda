@@ -27,5 +27,9 @@ package Float_array is
       -- Devuelve otro array con los valores mayores al parametro
       function Mayores(Arreglo : Array_Float; Valor : Float) return Array_Float;
       
+   
+   private
+   
+   type Array_Float is Array(1..100) of Float;
 
 end Float_array;

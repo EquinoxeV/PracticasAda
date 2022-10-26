@@ -34,7 +34,7 @@ begin
    --  end;
 
 
-   declare
+   -- declare
       --  -- Declarar un tipo de arreglo de float
       --  type Array_Float is array(Positive range <>) of Float;
       --
@@ -122,33 +122,32 @@ begin
       --
       --
       --
-      --  -- Numeros : Array_Float := Arreglo_Numeros_Aleatorios(10);
-      --
-      --  begin
-      --  --     for I in reverse Numeros'Range loop
-      --  --     Put(Numeros(I), Exp => 0);
-      --  --     Put_Line("");
-      --  --
-      --  --     end loop;
-      --  --
-      --  --  Put_Line("La sumatoria es: ");
-      --  --  Put(Sumatoria(Numeros), Exp => 0);
-      --  --
-      --  --  Put_Line("");
-      --  --  Put_Line("El promedio es: ");
-      --  --  Put(Promedio(Numeros), Exp => 0);
-      --
-      --  Muestreo_De_Datos;
-      --  declare
-      --     Mayores_A_5 : Array_Float := Mayores(Numeros, 5);
-      --
-      --  begin
-      --     Put_Line("Los mayores a 5 son: ");
-      --     Muestreo_De_Datos(Mayores_A_5);
-      --  end;
 
+
+
+     Numeros : Array_Float := Arreglo_Numeros_Aleatorios(10);
    begin
-      null;
+      --  for I in reverse Numeros'Range loop
+      --     Put(Numeros(I), Exp => 0);
+      --     Put_Line("");
+      --  end loop;
+      Mostrar(Numeros);
+      Put_Line("La Sumatoria es : ");
+      Put(Sumatoria(Numeros),Exp =>0 );
+
+      Put_Line("");
+      Put_Line("El promedio es : ");
+      Put(Promedio(Numeros), Exp =>0 );
+      Put_Line("");
+
+      declare
+         Mayores_A_5 : Array_Float := Mayores(Numeros,5.0);
+      begin
+         Put_Line("Los mayores a 5 son");
+         Mostrar(Mayores_A_5);
+      end;
+
+
    end;
 
 end Main;
