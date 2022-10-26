@@ -49,6 +49,12 @@ Introducción a los registros (POO de java).
 -> 008  
 Introducción a los arreglos (arrays).
 
+-> 009Arreglos  
+Bonus de Arreglos
+
+-> 010VariosTemas  
+Repaso.
+
 
 -> 010EjercicioArray  
 Tarea realizada el 26-10-2022, esta incompleta.
