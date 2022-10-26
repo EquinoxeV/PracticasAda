@@ -50,3 +50,5 @@ Introducción a los registros (POO de java).
 Introducción a los arreglos (arrays).
 
 
+-> 010EjercicioArray  
+Tarea realizada el 26-10-2022, esta incompleta.
