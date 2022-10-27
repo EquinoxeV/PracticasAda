@@ -58,3 +58,8 @@ Repaso.
 
 -> 010EjercicioArray  
 Tarea realizada el 26-10-2022, esta incompleta.
+
+-> 011RegistrosBonus  
+Haremos un repaso de registros añadiendo lo aprendido hasta ahora. Solicitando datos al ususario para proceder con la creación de objetos (registros).  
+Utilizaremos la libreria "Ada.Characters.Handling" para convertir de Upper a Lower.  
+
