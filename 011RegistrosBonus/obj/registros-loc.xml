@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
+    <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 12" >
+    <file_marker column=" 4" line=" 46" >
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
     </file_marker>
@@ -18,7 +18,7 @@
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\io.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 9" line=" 17" >
+    <file_marker column=" 4" line=" 53" >
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
     </file_marker>
@@ -26,7 +26,7 @@
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 58" >
+    <file_marker column=" 4" line=" 65" >
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\io.adb</vfs_file>
     </file_marker>
@@ -34,15 +34,15 @@
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\io.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 58" >
+    <file_marker column=" 4" line=" 65" >
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\io.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 58" >
+    <file_marker column=" 4" line=" 65" >
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\io.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 15" >
+    <file_marker column=" 4" line=" 53" >
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
     </file_marker>
@@ -50,7 +50,7 @@
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\jugador.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 7" >
+    <file_marker column=" 4" line=" 15" >
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\jugador.ads</vfs_file>
     </file_marker>
@@ -58,7 +58,7 @@
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\io.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 25" >
+    <file_marker column=" 19" line=" 32" >
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\io.adb</vfs_file>
     </file_marker>
@@ -66,9 +66,161 @@
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 78" line=" 5" >
+    <file_marker column=" 84" line=" 9" >
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\juego.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 32" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\juego.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 19" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\juego.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 9" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\juego.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\juego.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 10" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\juego.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 4" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\juego.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 99" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 53" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 92" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 11" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\juego.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 54" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 11" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\juego.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 54" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 54" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 11" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\juego.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 54" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 11" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\juego.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 54" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 81" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 88" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 77" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 83" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 81" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 14" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 17" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 10" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 16" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 61" line=" 83" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 56" line=" 15" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\juego.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\juego.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 14" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\juego.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 63" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 63" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 37" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 40" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 68" line=" 84" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\011RegistrosBonus\src\main.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
