@@ -63,3 +63,5 @@ Tarea realizada el 26-10-2022, esta incompleta.
 Haremos un repaso de registros añadiendo lo aprendido hasta ahora. Solicitando datos al ususario para proceder con la creación de objetos (registros).  
 Utilizaremos la libreria "Ada.Characters.Handling" para convertir de Upper a Lower.  
 
+-> 012Generics  
+Utilización de genericos.  
