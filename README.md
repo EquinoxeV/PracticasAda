@@ -66,6 +66,9 @@ Utilizaremos la libreria "Ada.Characters.Handling" para convertir de Upper a Low
 -> 012Generics  
 Utilización de genericos.  
 
+-> 013Punteros  
+Inicialización a punteros, uso de la libreria "Ada.Characters.Handling".  
+
 -> 014Ejercicio  
 Tarea realizada (sin terminar) el 2 de Noviembre.  
 
