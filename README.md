@@ -65,3 +65,9 @@ Utilizaremos la libreria "Ada.Characters.Handling" para convertir de Upper a Low
 
 -> 012Generics  
 Utilización de genericos.  
+
+-> 014Ejercicio  
+Tarea realizada (sin terminar) el 2 de Noviembre.  
+
+-> 014Objetos  
+Programación Orientada a objetos en Ada.
