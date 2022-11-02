@@ -20,7 +20,7 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 
-U personaje%b		personaje.adb		9497678a OO PK
+U personaje%b		personaje.adb		746f4478 OO PK
 Z ada.exceptions%s	a-except.adb		a-except.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 Z system%s		system.ads		system.ali
@@ -33,7 +33,7 @@ Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
 Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
 Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
 
-U personaje%s		personaje.ads		07246388 EE OO PF PK
+U personaje%s		personaje.ads		5d064f2d EE OO PF PK
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 Z ada.streams%s		a-stream.adb		a-stream.ali
@@ -66,8 +66,8 @@ D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D a-uncdea.ads		20210520051130 c3a8ac65 ada.unchecked_deallocation%s
 D interfac.ads		20210520051132 edec285f interfaces%s
-D personaje.ads		20221102083214 041631af personaje%s
-D personaje.adb		20221102082324 90815625 personaje%b
+D personaje.ads		20221102092002 5e341d0a personaje%s
+D personaje.adb		20221102092002 2a5b5972 personaje%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
 D s-conca8.ads		20210520051132 e3074dd7 system.concat_8%s
@@ -96,36 +96,43 @@ D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
 D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z s b [create personaje 14 13 none]
-G c Z s b [to_string personaje 17 13 none]
-G c Z s s [clase_campeonDA personaje 21 9 none]
-G c Z s s [clase_campeonDF personaje 21 9 none]
-G c Z s s [clase_campeonDI personaje 21 9 none]
-G c Z s s [clase_campeonIP personaje 21 9 none]
+G c Z s b [get_nombre personaje 15 13 none]
+G c Z s b [get_nivel personaje 16 13 none]
+G c Z s b [create personaje 21 13 none]
+G c Z s b [to_string personaje 24 13 none]
+G c Z s s [clase_campeonDA personaje 30 9 none]
+G c Z s s [clase_campeonDF personaje 30 9 none]
+G c Z s s [clase_campeonDI personaje 30 9 none]
+G c Z s s [clase_campeonIP personaje 30 9 none]
 X 1 ada.ads
 16K9*Ada 20e8 16|1r6 1r33
 X 7 a-string.ads
 16K13*Strings 35e16 16|1r10 1r37
 X 10 a-strunb.ads
 83K21*Unbounded 765e26 16|1w18 1r45
-88R9*Unbounded_String<5|43R9> 744e15 16|22r16
+88R9*Unbounded_String<5|43R9> 744e15 16|31r16
 104V13*To_Unbounded_String{88R9} 17|7s24
-117V13*To_String{string} 17|17s11
+117V13*To_String{string} 17|15s14 28s11
 X 16 personaje.ads
-3K9*Personaje 21E9 34l5 34e14 17|1b14 23l5 23t14
-5I9*Vida<integer> 23r12
-6I9*Niveles<integer> 24r15
-7I9*Puntos_Experiencia<integer> 25r21
-10R9*Clase_Campeon 11r27 17p13 17r30 21c9 28e14 17|6r21 14r30
-11P9*Campeon(10R9) 14r42 17|3r42 4r16
-14V13*Create{11P9} 14>20 17|3b13 11t7
-14a20 Nombre{string} 17|3b20 7r44
-17V13*To_String{string} 17>23 17|14b13 20t7
-17r23 This{10R9} 17|14b23 17r21 18r20 19r22
-22r7*Nombre{10|88R9} 17|7m14 17r26
-23i7*HP{5I9} 17|18r25
-24i7*Nivel{6I9} 17|8m14 19r27
-25i7*Experiencia{7I9} 17|9m14
+3K9*Personaje 30E9 43l5 43e14 17|1b14 34l5 34t14
+5I9*Vida<integer> 32r12
+6I9*Niveles<integer> 16r50 33r15 17|18r50
+7I9*Puntos_Experiencia<integer> 34r21
+10R9*Clase_Campeon 11r27 15p13 15r29 16p13 16r28 24p13 24r30 30c9 37e14 17|6r21
+. 13r29 18r28 25r30
+11P9*Campeon(10R9) 21r42 17|3r42 4r16
+15V13*Get_Nombre{string} 15>24 17|13b13 16l8 16t18
+15r24 This{10R9} 17|13b24 15r24
+16V13*Get_Nivel{6I9} 16>23 17|18b13 21t7
+16r23 This{10R9} 17|18b23 20r14
+21V13*Create{11P9} 21>20 17|3b13 11t7
+21a20 Nombre{string} 17|3b20 7r44
+24V13*To_String{string} 24>23 17|25b13 31t7
+24r23 This{10R9} 17|25b23 28r21 29r20 30r22
+31r7*Nombre{10|88R9} 17|7m14 15r29 28r26
+32i7*HP{5I9} 17|29r25
+33i7*Nivel{6I9} 17|8m14 20r19 30r27
+34i7*Experiencia{7I9} 17|9m14
 X 17 personaje.adb
 4p7 Result{16|11P9} 6m7 7r7 8r7 9r7 10r14
 X 18 system.ads

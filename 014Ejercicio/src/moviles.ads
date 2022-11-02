@@ -12,6 +12,9 @@ package Moviles is
                    Velocidad_X : Velocidad;
                   Velocidad_Y : Velocidad) return Movil;
    -- Métodos de la clase Movil
+   
+   function Actualizar_Movil(Movil) return Movil;
+   
    -- Se dan cuando el primer parametro es un tagged record
    function To_String(This : Clase_Movil) return String;
 

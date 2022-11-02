@@ -1,0 +1,94 @@
+with Ada.Text_IO; use Ada.Text_IO;
+with Ada.Containers.Vectors; use Ada.Containers.Vectors;
+
+procedure Main is
+
+begin
+
+   --  declare
+   --     A : Integer;
+   --     B : Integer;
+   --     C : Integer;
+   --  begin
+   --     A := 10;
+   --     B := 20;
+   --     C := A;
+   --     A := 40;
+   --
+   --     Put_Line(C'Image);
+   --
+   --  end;
+
+   --  declare
+   --     type Puntero_Integer is access Integer;
+   --     -- type Puntero_Integer_2 is access Integer; -- Es incompatible con el anterior
+   --
+   --     PTR_A : Puntero_Integer := null;
+   --     PTR_B : Puntero_Integer := null;
+   --     PTR_C : Puntero_Integer := null;
+   --
+   --  begin
+   --     PTR_A := new Integer'(10);
+   --     PTR_B := new Integer'(20);
+   --     PTR_C := PTR_A;
+   --     PTR_A.All := 40;
+   --
+   --     --PTR_A := new Integer'(10); -- Genero un nuevo espacio en el heap y pierdo la referenci original
+   --     -- Put_Line(PTR_A.'Image); -- No tenemos el image para los punteros
+   --
+   --     Put_Line(PTR_C.All'Image);
+   --     Put_Line(PTR_A'Integer_Value'Image);
+   --  end;
+
+
+
+
+   -- Declarar un arreglo a punteros de puntos ..
+
+   declare
+
+
+      -- Decalrar un tipo para un registro que sea un punto (X, Y)
+      type Punto is record
+         X := Integer;
+         Y := Integer;
+      end record;
+
+      -- Declarar un tipo que sea un puntero (access) a un punto
+      type Puntero_A_Punto is access Punto;
+      type Array_Punteros is array(Natural range <>) of Puntero_A_Punto;
+
+
+
+      package Vector_Puntos is new Ada.Containers.Vectors
+        (Index_Type => Natural, Element_Type => Puntero_A_Punto);
+
+      Mi_Punto : Puntero_A_Punto;
+      -- Muchos_Puntos : ArrayPuntero_Punto(0..5);
+      begin
+         -- Mi_Punto := new Punto'(10,10); -- no va porque no reserve memoria
+         -- Mi_Punto := new Punto'(X => 10, Y => 20);
+
+         -- INstancio 5 puntos ..
+         for index in 0..5 loop
+            Muchos_Puntos(index) := new Puntos'(index+2, index+2);
+         end loop;
+
+         for I in Muchos_Puntos'Range loop
+            Mi_Punto := Muchos_Puntos(I);
+
+            -- En principio con los punteros para obtener el valor va el all
+            --  Set_Col(Positive_Count(Mi_Punto.All.X));
+            --  Set_Line(Positive_Count(Mi_Punto.All.Y));
+            -- Pero en ada en los registros me permite obviar el All
+            -- Desreferenciación automatica
+            Set_Col(Positive_Count(Mi_Punto.X));
+            Set_Line(Positive_Count(Mi_Punto.Y));
+            Put_Line("*");
+         end loop;
+
+      end;
+
+
+   null;
+end Main;

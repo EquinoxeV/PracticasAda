@@ -1,0 +1,19 @@
+Guía POO en ADA
+
+1. Agregar un paquete nuevo para la clase (Para cada Clase un paquete)
+2. Generar la clase como tipo tagged private en el ads (Definición del paquete)
+	type <Clase_Nombre> is tagged private ;
+Esto se hace para que todos los atributos sean privados y respetar el encapsulamiento.
+3. Generar una sección private en el package
+	type Clase_NNN is tagged record
+		/....
+	end record;
+   tagged record = class;
+4. Generar un access (Referencia) para la clase abajo del tagged private
+	type NN is access Clase_NNN;
+Esto es para manejar los objetos como referencias al igual que java
+
+5. Generar un constructor (una funcion que devuelva
+
+6. Generar Getters y Setters
+	function Get_<NombreAtributo>(This:Clase_NNN) returns ...;

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
+    <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Objetos\src\main.adb</vfs_file>
@@ -106,7 +106,7 @@
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 40" line=" 10" >
+    <file_marker column=" 40" line=" 15" >
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\main.adb</vfs_file>
     </file_marker>
@@ -114,9 +114,101 @@
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\movil.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 4" line=" 3" >
+    <file_marker column=" 4" line=" 6" >
       <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
       <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\movil.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 19" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 18" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 18" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 3" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 10" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 3" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 3" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 25" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 10" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 4" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 25" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 25" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 24" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 22" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 23" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 24" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 99" line=" 25" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 3" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 10" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 70" line=" 25" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 26" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 43" line=" 25" >
+      <vfs_project>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Users\rrarribas\Documents\Documentos\Cursos\PracticasAda\014Ejercicio\src\moviles.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

@@ -10,11 +10,20 @@ package Personaje is
    type Clase_Campeon is tagged private;
    type Campeon is access Clase_Campeon;
    
+   -- Getters y setters
+   -- getters
+   function Get_Nombre(This:Clase_Campeon) return String;
+   function Get_Nivel(This:Clase_Campeon) return Niveles;
+   
+   -- Otros metodos
+   
     -- Constructor
    function Create(Nombre:String) return Campeon;
    -- Métodos de la clase Campeón
    -- Se dan cuando el primer parametro es un tagged record
    function To_String(This : Clase_Campeon) return String;
+   
+   
 
    
    private
