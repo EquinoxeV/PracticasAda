@@ -1,0 +1,4 @@
+moviles.adb:20:43: error: expected type "Clase_Movil" defined at moviles.ads:20
+moviles.adb:20:43: error: found type "Standard.String"
+moviles.adb:20:85: error: expected type "Clase_Movil" defined at moviles.ads:20
+moviles.adb:20:85: error: found type "Standard.String"
