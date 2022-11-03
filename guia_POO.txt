@@ -13,7 +13,65 @@ Esto se hace para que todos los atributos sean privados y respetar el encapsulam
 	type NN is access Clase_NNN;
 Esto es para manejar los objetos como referencias al igual que java
 
-5. Generar un constructor (una funcion que devuelva
+5. Generar un constructor (una funcion que devuelva una referencia a un objeto)  
+Le podemos poner el nombre que queramos, sugerencia:  
+	function Create() return NNN;  
+	5.1. Implementar el constructor en el cuerpo del paquete (adb)
 
 6. Generar Getters y Setters
 	function Get_<NombreAtributo>(This:Clase_NNN) returns ...;
+
+
+Guía POO con Polimosfismo: 
+
+1. Generar un paquete para la jerarquía de clases (uno o más)
+	1.1. (Encapsulamiento) separar la sección pública y privada dentro del paquete
+
+2. Declarar una clase abstracta (con abstract)
+	Clase Abstracta: Una clase padre de varias clases. Una plantilla. No se puede instanciar.
+	Para generar subclases.
+	2.1. Parte pública
+	type Clase_<Nombre> is abstract tagged private
+	
+	2.2. Parte privada
+		type Clase_<NOmbre> is abstract tagged
+		record
+			...atributos...
+		end record;
+
+3. Declarar un access (referencia) a objetos de la clase abstracta.
+	3.1. Parte pública
+		type <Nombre> is access Clase_<Nombre>'Class
+		Nota : Como ese access va a apuntar a objetos de las subclases entonces no olvidar el 'Class (Atributo Class)
+
+4. Definir Setters y Getters de los atributos (si los tuviera)
+	4.1. El ads
+		function Get_<Atributo>(This Clase_<Nombre>) return <Tipo>;
+	4.2. En el adb 
+		Agrego la implementación
+5. Definir metodos
+	5.1. Definir métodos abstractos
+		function Metodo_Uno(This: in Clase_<Nombre>) return <Tipo> is abstract;
+		procedure Metodo_Dos(This: in clase_<Nombre>) is abstract;
+		Nota: si tenemos una clase abstracta tiene sentido tener algún metodo abstracto.
+	5.2. (Opcional) Definir los métodos concretos e implementarlos en el adb
+6. Agregar subclases
+	6.1. Parte pública
+	type Clase_<NOmbre_Subclase> is new Clase_<Nombre> with private;
+	6.2. Parte privada
+	type Clase_Leon is new Clase_Animal with
+		record
+			..nuevos atributos si los hubiera o null..
+		end record;
+
+7. Generar el constructor de la subclase
+	function Crear_<Nombre_Subclase>() return (Access a la superclase);
+
+8. Implementar los métodos abstractos en las subclases
+	8.1. En el ads
+		overriding procedure Metodo(This : in Clase_<Nombre_Subclase>);
+	8.2. En el adb
+		overriding procedure Metodo(This : in Clase_<Nombre_SUbclase) is
+			begin
+				..
+			end
