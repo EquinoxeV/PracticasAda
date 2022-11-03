@@ -74,3 +74,9 @@ Tarea realizada (sin terminar) el 2 de Noviembre.
 
 -> 014Objetos  
 Programación Orientada a objetos en Ada.
+
+-> 015Herencia  
+Trataremos el tema de la herencia.  
+
+-> Guia_POO.txt  
+Una pequña guía con las pautas a seguir con la Programación Orientada a Objetos.
