@@ -1,0 +1,3 @@
+main.adb:27:39: error: expected type "Standard.Float"
+main.adb:27:39: error: found type universal integer
+main.adb:29:26: error: no selector "Get_Base" for type "Clase_Figura'Class" defined at figuras.ads:8

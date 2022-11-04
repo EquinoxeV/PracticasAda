@@ -1,0 +1,3 @@
+figuras.adb:10:44: error: expected private type "Ada.Strings.Unbounded.Unbounded_String"
+figuras.adb:10:44: error: found type "Standard.String"
+figuras.adb:17:13: error: no selector "Base_Rectangulo" for type "Clase_Figura'Class" defined at figuras.ads:6
