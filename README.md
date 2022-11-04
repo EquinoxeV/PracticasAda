@@ -78,5 +78,8 @@ Programación Orientada a objetos en Ada.
 -> 015Herencia  
 Trataremos el tema de la herencia.  
 
+-> 016EjercicioHerencia  
+Ejercicio para finalizar el curso (esta sin acabar).  
+
 -> Guia_POO.txt  
 Una pequña guía con las pautas a seguir con la Programación Orientada a Objetos.
