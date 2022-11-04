@@ -83,3 +83,5 @@ Ejercicio para finalizar el curso (esta sin acabar).
 
 -> Guia_POO.txt  
 Una pequña guía con las pautas a seguir con la Programación Orientada a Objetos.
+
+- Curso dado por Esteban Calabria -> mct.esteban.calabria@gmail.com - 
