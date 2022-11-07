@@ -5,6 +5,9 @@ procedure Main is
    -- Leon : Animal;
    Un_Animal : Animal;
 
+
+   -- Decalro un vector de animales
+
 begin
    -- Leon := Create("Mufasa");
    -- Leon := new Clase_Leon("Mufasa");
